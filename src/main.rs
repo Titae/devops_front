@@ -8,4 +8,9 @@ mod tests {
     fn it_works() {
         assert_eq!(2 + 2, 4);
     }
+
+    #[test]
+    fn it_doesnt_works() {
+        assert_eq!(3 + 2, 4);
+    }
 }
